@@ -8,7 +8,7 @@ import {
 
 const CardGameSkeleton = () => {
   return (
-    <Card>
+    <Card width={300}>
       <Skeleton height={200} />
       <CardBody>
         <SkeletonText />
