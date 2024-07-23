@@ -18,7 +18,7 @@ export interface GameQuery {
   searchText:string;
 }
 function App() {
-  const [gameQuery, setGameQuery] = useState<GameQuery>({} as GameQuery);
+  const [gameQuery, setGameQuery] = useState<GameQuery>({} as GameQuery); 
   return (
     <Grid
       templateAreas={{
